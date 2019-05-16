@@ -1,0 +1,28 @@
+body {
+  font-size: 19px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5em;
+  color: white;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+#title {
+  position: absolute;
+  left: 440px;
+  order: 1;
+  width: 35%;
+  z-index: 3;
+}
+
+#info {
+  position: absolute;
+  top: 551px;
+  left: 803px;
+  z-index: 0;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+}
